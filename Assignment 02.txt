@@ -1,0 +1,190 @@
+01. Print = Print lesa type keru vita line eka maru novi digatama type we.
+    Println = Println lesa type keru vita line eka maru we.
+
+print Example :
+
+	class Example{
+		public static void main(String args[]){
+			System.out.print("Hello java ");
+			System.out.print("Hello java");
+		}
+	}
+
+<<<Out put>>>
+
+	D:\gdse65>java Example
+	Hello java Hello java
+	D:\gdse65>
+
+Println Example :
+
+	class Example{
+		public static void main(String args[]){
+			System.out.println("Hello java");
+			System.out.println("Hello java");
+		}
+	}
+
+<<<out put>>>
+
+	D:\gdse65>java Example
+	Hello java
+	Hello java
+	D:\gdse65>
+
+
+02. class Example{
+	public static void main(String args[]){
+		System.out.println("Rukshan kavinda");
+		System.out.println("polpitiya,pitawala.");
+	}
+}
+
+
+03. 05 types of java literals
+		01.Integer literals (1234 , -1234)
+		02.Floating point literals (1.235 , 0.354)
+		03.Character Literals (c , *, 2)
+		04.String Literals (Rukshan , 3 , H)
+		05.Boolean literals (True , False)
+
+04. class Example{
+	 public static void main(String args[]){
+		System.out.println("*");
+		System.out.println("* *");
+		System.out.println("* * *");
+		System.out.println("* * * *");
+		System.out.println("* * * * *");
+	 }
+    }
+
+05. class Example{
+	  public static void main(String args[]){
+		System.out.println("*");
+		System.out.println("**");
+		System.out.println("***");
+		System.out.println("****");
+		System.out.println("*****");
+	  }
+    }
+
+
+06.class Example{
+	  public static void main(String args[]){
+		System.out.println("      *       ");
+		System.out.println("   *     *    ");
+		System.out.println("*     *     * ");
+		System.out.println("   *     *    ");
+		System.out.println("      *       ");
+	  }
+   }
+
+07. class Example{
+	 public static void main(String args[]){
+		int i;
+		i=100;
+		int age;
+		age=20;
+		System.out.println("The age is "+age);
+	 }
+    }
+
+08. 
+
+
+
+12. import java.util.*;
+    class Example{
+	public static void main(String args[]){
+		Scanner input=new Scanner(System.in);
+		float x;
+		System.out.print("inches");
+		x=input.nextInt();
+		System.out.println("milimeters :" +(x*25.4f));
+	}
+    }
+
+15. import java.util.*;
+    class Example{
+	public static void main(String args[]){
+		Scanner input=new Scanner(System.in);
+		int a,b,c,d,e,f,g,h;
+		System.out.print("Input a : ");
+		a=input.nextInt();
+		System.out.print("Input b : ");
+		b=input.nextInt();
+		System.out.print("Input c : ");
+		c=input.nextInt();
+		System.out.print("Input d : ");
+		d=input.nextInt();
+		System.out.print("Input e : ");
+		e=input.nextInt();
+		System.out.print("Input f : ");
+		f=input.nextInt();
+		System.out.print("Input g : ");
+		g=input.nextInt();
+		System.out.print("Input h : ");
+		h=input.nextInt();
+		System.out.println(" Marks : ["+a+","+b+","+c+","+d+","+e+","+f+","+g+","+h+"]");
+		System.out.println("Total : " +(a+b+c+d+e+f+g+h));
+		System.out.println("Average :" +((a+b+c+d+e+f+g+h)/8));
+	}
+    }
+
+
+22.class Example{
+	public static void main(String args[]){
+		System.out.println("java is a typed language");
+		System.out.println("AB\"CD");
+		System.out.println("AB\\CD");
+		System.out.println("C:\\Windows\\Programm");
+		System.out.println("AB\\\"\"CD");
+		System.out.println("AB\\\\\"\"CD");
+		System.out.println("AB\\nCD");
+		System.out.println("AB\\tCD");
+		System.out.println("AB\\bCD");
+
+	}
+
+
+36. A-6
+    B-123
+    C-150
+    D-1 2 3
+    E-198
+    F-ABC
+    G-365
+    H-A B C
+
+39.  import java.util.*;
+     class Example{
+	public static void main(String args[]){
+		Scanner input=new Scanner(System.in);
+		System.out.print("Input your age : ");
+		int age=input.nextInt();
+		System.out.println("Your current age is : "+age);
+		//--------------Do not modify before this line----
+		//your are allowed to insert any code here to 
+		age=age+10;
+		//increment the age by 10
+		//---------------------Do not modify after this line---
+		System.out.println("Your age after 10 years is : "+age);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+	}
+   }
+
+
+
+40.
+

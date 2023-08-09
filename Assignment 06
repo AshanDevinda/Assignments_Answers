@@ -1,0 +1,369 @@
+01. 	a - correct
+	b - correct
+	c - incorrect
+	d - incorrect
+	e - incorrect
+	f - incorrect
+	g - incorrect
+	h - incorrect
+	i - incorrect
+	j - incorrect
+	k - correct
+	l - correct
+____________________________________________
+02. 	Line 1 - error
+	Line 2 - not error
+	Line 3 - not error
+	Line 4 - not error
+	Line 5 - not error
+	Line 6 - error
+	Line 7 - not error
+	Line 8 - error
+____________________________________________
+03.	import java.util.*;
+	class Example{
+		public static int printMarkAndAvg(){
+			Scanner input=new Scanner(System.in);
+			int total=0;
+			for (int i = 0; i < 10; i++){
+				System.out.print("Input Mark "+(i+1)+" : ");
+				int num=input.nextInt();
+				total+=num;
+			}
+			return total;
+		}
+	
+		public static void main(String args[]){
+			int total = printMarkAndAvg();
+			System.out.println("Total is   : "+total);
+			System.out.println("Average is : "+total/10.0);
+		
+		}
+	}
+____________________________________________
+04.	import java.util.*;
+	class Example{
+		public static void printMax(){
+			Scanner input=new Scanner(System.in);
+			int max=0;
+			for (int i = 0; i < 3; i++){
+				System.out.print("Input Number "+(i+1)+" : ");
+				int num=input.nextInt();
+				if (num>max){
+					max=num;
+				}
+			}
+				System.out.print("Max Number is : "+max);
+
+		}
+		public static void main(String args[]){
+			printMax();
+		}
+	}
+____________________________________________
+05.	import java.util.*;
+	class Example{
+		public static void printArea(){
+			Scanner input=new Scanner(System.in);
+			System.out.print("Input Radius : ");
+			int num=input.nextInt();
+			int py=22/7;
+			int area=py*num*num;
+			System.out.print("Area is : "+area);
+
+		}
+		public static void main(String args[]){
+			printArea();
+		}
+	}
+
+____________________________________________
+06.	import java.util.*;
+	class Example{
+		public static void printSumOfDigit(){
+			Scanner input=new Scanner(System.in);
+			System.out.print("Input Number : ");
+			int num=input.nextInt();
+			int sum=0;
+			while (num!=0){
+				sum+=num%10;
+				num/=10;
+			}
+			System.out.print(sum);
+		}
+		public static void main(String args[]){
+			printSumOfDigit();
+		}
+	}
+
+____________________________________________
+07.	import java.util.*;
+	class Example{
+		public static void printReversNumber(){
+			Scanner input=new Scanner(System.in);
+			System.out.print("Input Number : ");
+			int num=input.nextInt();
+			int revers=0;
+			while (num!=0){
+				revers*=10;
+				revers+=num%10;
+				num/=10;
+			}
+			System.out.print(revers);
+		}
+		public static void main(String args[]){
+			printReversNumber();
+		}
+	}
+
+____________________________________________
+08.	import java.util.*;
+	class Example{
+		public static void printArmstrongNumber(){
+			Scanner input=new Scanner(System.in);
+			System.out.print("Input Number : ");
+			int num=input.nextInt();
+			int check=num;
+			int armstrong=0;
+			int tot=0;
+			int x=0;
+			while (num!=0){
+				x=num%10;
+				num/=10;
+				if (x>0){
+					armstrong=x*x*x;
+				}
+				tot+=armstrong;
+			}
+			if (check==tot){
+				System.out.println("Armstrong Number");
+			}else{
+			System.out.println("Not Armstrong Number");
+			}
+		}
+		public static void main(String args[]){
+			printArmstrongNumber();
+		}
+	}
+____________________________________________
+09.	import java.util.*;
+		class Example{
+		public static void DivisibleNumber(){
+			int num=10;
+			L1:while(true){
+				num++;
+				for(int i=2; i<=20; i++){
+					if(num%i!=0){
+						continue L1;
+					}
+				}
+				break;
+			}
+			System.out.println(num);
+		}
+		public static void main(String s[]) {
+			DivisibleNumber();
+  		}
+	}
+
+____________________________________________
+10.	import java.util.*;
+		class Example{
+		public static void printLeapYear(){
+			Scanner input=new Scanner(System.in);
+			System.out.print("Input Year : ");
+			int x=input.nextInt();
+			if(x%4==0){
+				System.out.print("Leap Year");
+			}else{
+				System.out.print("Not Leap Year");
+			}
+		}
+		public static void main(String s[]) {
+			printLeapYear();
+  		}
+	}
+
+____________________________________________
+11.	import java.util.*;
+		class Example{
+		public static void printFibonacciSeries(){
+			int n1=0;
+			int n2=1;
+			int n3;
+			System.out.print(n2+" ");
+			for(int i=2;i<10;i++){    
+				n3=n1+n2;
+				System.out.print(n3+" ");
+				n1=n2;
+				n2=n3;
+			} 
+		}
+		public static void main(String s[]) {
+			printFibonacciSeries();
+  		}
+	}
+
+____________________________________________
+12. 	Line 1 - Legal
+	Line 2 - Illegal
+	Line 3 - Legal
+	Line 4 - Illegal
+	Line 5 - Illegal
+	Line 6 - Legal
+	Line 7 - Legal
+	Line 8 - Legal
+____________________________________________
+13.	Line 8
+____________________________________________
+14.	import java.util.*;
+	class Example{
+		public static boolean NumberIsAPalindrome(int num) {
+			int check=num;
+			int rev=0;
+			while (num!=0){
+				rev*=10;
+				rev+=num%10;
+				num/=10;
+			}
+			if(rev==check){
+				return true;
+			}else{
+				return false;
+			}
+   	 }
+		public static void main(String []args) {
+			Scanner input=new Scanner(System.in);
+			System.out.print("Input an integer : ");
+			int num=input.nextInt();
+			boolean x = NumberIsAPalindrome(num);
+			System.out.println(x);
+		}
+	}
+
+____________________________________________
+15.	import java.util.*;
+	class Example{
+		public static String printDecimalToBinary(int num){
+			String s="";
+			do{
+				s=num%2+s;
+				num/=2;
+			} while (num!=0);
+			return s;	
+		}
+	
+		public static void main(String args[]){
+			Scanner input=new Scanner(System.in);
+			System.out.print("Input Decimal Number : ");
+			int num=input.nextInt();
+			System.out.print(printDecimalToBinary(num));
+		}
+	}
+
+____________________________________________
+16.	A B C H
+____________________________________________
+17.	C
+____________________________________________
+18.	?
+____________________________________________
+19.	?
+____________________________________________
+20.	import java.util.*;
+	class Example{
+		public static boolean isPass(double avg){
+			if (avg>=50){
+				return true;
+			}else{
+				return false;
+			}
+		}
+		public static void main(String args[]){
+			Scanner input=new Scanner(System.in);
+			System.out.print("Input average marks : ");
+			double avg=input.nextDouble();
+			System.out.println(isPass(avg) ? "Pass":"Fail");
+		}
+	}
+
+____________________________________________
+21.	import java.util.*;
+	class Example{
+		public static int abs(int rand){
+			if(rand>0){
+				return rand;
+			}else{
+				return rand*-1;
+			}
+		}
+	
+		public static void main(String args[]){
+			Random r=new Random();
+			for(int i=0; i<10; i++){
+				int rand=r.nextInt();
+				System.out.println("Absolute value of"+rand+" : "+abs(rand));
+			}
+		}
+	}
+
+____________________________________________
+22.	import java.util.*;
+	class Example{
+		public static boolean isEven(int rand){
+			if(rand%2==0){
+				return true;
+			}else{
+				return false;
+			}
+		}
+		public static void main(String args[]){
+			Random r=new Random();
+			for (int i = 0; i < 10; i++){
+				int rand=r.nextInt(100);
+				System.out.println(isEven(rand) ? rand+" is an even number" : rand+" is an odd number ");
+			}
+		}
+	}
+
+____________________________________________
+23.	increment යන method එකෙන් return කරන x, main method 
+	එකේ ගබඩා වන්නේ අවසාන line එකට කලින් line එකේය. 
+	එම නිසා output එකෙහි අවසාන line දෙකේ පමණක් x හි නව 
+	අගය print කරයි.
+____________________________________________
+24.	B C D F G
+____________________________________________
+25.	G
+____________________________________________
+26.	class Example{
+		public static String toBinaryString(int num){
+			String s="";
+			do{
+				s=num%2+s;
+				num/=2;
+			} while (num!=0);
+			return s;
+		}
+		public static String toOctalString(int num){
+			String s="";
+			do{
+				s=num%8+s;
+				num/=8;
+			} while (num!=0);
+			return s;
+		}
+		public static String toHexString(int num){
+			String s="";
+			do{
+				s=num%16+s;
+				num/=16;
+			} while (num!=0);
+			return s;
+		}
+		public static void main(String args[]){
+			System.out.println(toBinaryString(100)); //1100100
+			System.out.println(toOctalString(100)); //144
+			System.out.println(toHexString(100)); //64
+		}
+	}

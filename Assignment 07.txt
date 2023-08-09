@@ -1,0 +1,746 @@
+01.a. xr namin arrays ekak sadai.
+	b. xr array ekata length eka 4 denawa.
+	c. xr eke address eka print karai.
+	d. xr array eke palamu index eka print karai.
+	e. xr array eke palaweni index ekata 100 assign karai.
+	f. xr array eke dewana index ekata 200 assign kirima.
+	g. xr array eke thunwana index ekata 300 assign karai.
+	h. xr array eke 4 wana index ekata 400 assign kirima.
+	i. 100 200 300 400 print karai 
+
+
+02.
+
+03.
+a)  import java.util.*;
+class Example{
+	public static void main(String args[]){
+		Scanner input=new Scanner(System.in);
+		
+		int[] ar=new int[10];
+	}
+}
+
+b) import java.util.*;
+class Example{
+	public static void main (String args[]){
+		Scanner input=new Scanner (System.in);
+		int[] ar=new int[5];
+		System.out.print("Input number 01 : ");
+		ar [0]=input.nextInt();
+		System.out.print("Input number 02 : ");
+		ar [1]=input.nextInt();
+		System.out.print("Input number 03 : ");
+		ar [2]=input.nextInt();
+		System.out.print("Input number 04 : ");
+		ar [3]=input.nextInt();
+		System.out.print("Input number 05 : ");
+		ar [4]=input.nextInt();
+		System.out.print("[");
+		System.out.print(ar [0]+" "+ar [1]+" "+ar [2]+" "+ar [3]+" "+ar [4]);
+		System.out.println("]");
+	}
+}
+ 
+c) import java.util.*;
+class Example{
+	public static void main (String args[]){
+		Scanner input=new Scanner (System.in);
+		int[] ar=new int[5];
+		for (int i = 0; i < ar.length; i++){
+			System.out.print("Input number "+(i+1)+ " : ");
+			ar [i]=input.nextInt();
+		}
+		System.out.print("[");
+		for(int a:ar){
+			System.out.print(a+", ");
+			}
+		System.out.println("\b\b]");
+	}
+}
+
+
+d) import java.util.*;
+class Example{
+	public static void main (String args[]){
+		Scanner input=new Scanner (System.in);
+		int[] ar=new int[5];
+		for (int i = 0; i < ar.length; i++){
+			System.out.print("Input number "+(i+1)+ " : ");
+			ar [i]=input.nextInt();
+			
+		}
+		System.out.print(ar[0]+" "+ar[1]+" "+ar[2]+" "+ar[3]+" "+ar[4]);
+	}
+}
+
+
+e) import java.util.*;
+class Example{
+	public static void main (String args[]){
+		Scanner input=new Scanner (System.in);
+		int[] ar=new int[5];
+		for (int i = 0; i < ar.length; i++){
+			System.out.print("Input number "+(i+1)+ " : ");
+			ar [i]=input.nextInt();
+			
+		}for (int i = 0; i <ar.length; i++){
+			System.out.print(ar[i]+" ");
+		}
+		
+	}
+}
+
+ 
+
+04.
+a) import java.util.*;
+     class Example{
+	   public static void main (String args[]){
+		Scanner input=new Scanner (System.in);
+		int[] f={12, 65, 47, 85, 54, 47, 55};
+		System.out.print(f[6]);
+		
+	}
+ }
+
+b)
+
+c)  import java.util.*;
+    class Example{
+	  public static void main (String args[]){
+		Scanner input=new Scanner (System.in);
+		float[] c =new float [100];
+	}
+  }
+
+
+d)
+
+e)
+
+
+05) 
+a) import java.util.*;
+   class Example{
+	 public static void main (String args[]){
+		Scanner input=new Scanner (System.in);
+		int[] ar ={65, 78, 43, 89, 34, 56, 90, 23, 64, 71, 94, 29};
+	}
+ }
+
+b)import java.util.*;
+  class Example{
+	public static void main (String args[]){
+		Scanner input=new Scanner (System.in);
+		int[] ar ={65, 78, 43, 89, 34, 56, 90, 23, 64, 71, 94, 29};
+		System.out.print(ar.length);
+	}
+ }
+
+
+c) import java.util.*;
+	class Example{
+	public static void main (String args[]){
+		Scanner input=new Scanner (System.in);
+		int[] ar ={65, 78, 43, 89, 34, 56, 90, 23, 64, 71, 94, 29};
+		for (int i = 0; i < ar.length; i++){
+			System.out.print(ar[i]+" ");
+		}
+	}
+ }
+
+
+d) import java.util.*;
+	class Example{
+	public static void main (String args[]){
+		Scanner input=new Scanner (System.in);
+		int[] ar ={65, 78, 43, 89, 34, 56, 90, 23, 64, 71, 94, 29};
+		for (int b:ar){
+			System.out.print(b+" ");
+		}
+	}
+	}
+
+
+e)  import java.util.*;
+	class Example{
+	public static void main (String args[]){
+		Scanner input=new Scanner (System.in);
+		int[] ar ={65, 78, 43, 89, 34, 56, 90, 23, 64, 71, 94, 29};
+		for (int b:ar){	
+			if (b%2==1){
+				System.out.print(b+" ");
+			}
+		}
+	}
+     }
+
+
+f)   import java.util.*;
+	class Example{
+	public static void main (String args[]){
+		Scanner input=new Scanner (System.in);
+		int[] ar ={65, 78, 43, 89, 34, 56, 90, 23, 64, 71, 94, 29};
+		for (int b:ar){	
+			if (b%2==0){
+				System.out.print(b+" ");
+			}
+		}
+	}
+    }
+
+
+
+06)
+a) import java.util.*;
+	class Example{
+	public static void main (String args[]){
+		Scanner input=new Scanner (System.in);		
+		int [] ar=new int[12];
+	}
+   }
+
+
+b) import java.util.*;
+	class Example{
+	public static void main (String args[]){
+		Scanner input=new Scanner (System.in);
+		Random r=new Random();		
+		int [] ar=new int[12];
+		for (int i = 0; i < ar.length; i++){
+			ar[i]=r.nextInt(101);
+		}
+		for(int h:ar){
+		System.out.print(h+" ");
+	}
+	}
+  }
+
+
+c) import java.util.*;
+	class Example{
+	public static void main (String args[]){
+		Scanner input=new Scanner (System.in);
+		Random r=new Random();		
+		int [] ar=new int[12];
+		System.out.print("[");
+
+		for (int k = 0; k < ar.length; k++){
+			ar[k]=r.nextInt(101);
+			System.out.print(ar[k]+", ");
+		}
+			System.out.print("\b\b]");
+
+		
+	}
+  }
+
+
+d) import java.util.*;
+	class Example{
+	public static void main (String args[]){
+		Scanner input=new Scanner (System.in);
+		Random r=new Random();		
+		int [] ar=new int [12];
+		//System.out.print(Arrays.toString(ar));
+		System.out.print("[");
+
+		for (int k = ar.length-1; k >=0; k--){
+			ar[k]=r.nextInt(101);
+			System.out.print(ar[k]+", ");
+		}
+			System.out.print("\b\b]");
+
+		
+	}
+   }
+
+e) import java.util.*;
+   class Example{
+	public static void main (String args[]){
+		Scanner input=new Scanner (System.in);
+		Random r=new Random();		
+		int [] ar=new int [12];
+		//System.out.print(Arrays.toString(ar));
+	
+			int sum=0;
+			
+		for (int k = 0; k < ar.length ; k++){
+			
+			ar[k]=r.nextInt(101);
+			sum+=ar[k];
+			System.out.print(ar[k]+", ");
+			
+
+		}
+			System.out.print("\b\b\b");
+			System.out.println("\n");
+			System.out.println("Sum is : "+sum);
+
+
+		
+	}
+  }
+
+
+f) import java.util.*;
+	class Example{
+	public static void main (String args[]){
+		Scanner input=new Scanner (System.in);
+		Random r=new Random();		
+		int [] ar=new int [12];
+		//System.out.print(Arrays.toString(ar));
+	
+			int max=0;
+			
+		for (int k = 0; k < ar.length ; k++){
+			ar[k]=r.nextInt(101);
+			if(ar[k]>max){
+			 max=ar[k];
+		}
+			System.out.print(ar[k]+", ");
+		}
+			System.out.print("\b\b\b");
+			System.out.println("\n");
+			System.out.println("Max is : "+max);
+
+
+		
+	}
+   }
+
+
+g) import java.util.*;
+	class Example{
+	public static void main (String args[]){
+		Scanner input=new Scanner (System.in);
+		Random r=new Random();		
+		int [] ar=new int [12];
+		//System.out.print(Arrays.toString(ar));
+	
+			int min=100;
+			
+		for (int k = 0; k < ar.length ; k++){
+			ar[k]=r.nextInt(101);
+			if(ar[k] < min){
+			 min=ar[k];
+		}
+			System.out.print(ar[k]+", ");
+		}
+			System.out.print("\b\b\b");
+			System.out.println("\n");
+			System.out.println("Min is : "+min);
+
+
+		
+	}
+   }
+
+
+
+h) import java.util.*;
+class Example{
+	public static void main (String args[]){
+		Scanner input=new Scanner (System.in);
+		Random r=new Random();		
+		int [] ar=new int [12];
+		//System.out.print(Arrays.toString(ar));
+			
+			int count=0;
+			 System.out.print("[");
+		for (int k = 0; k < ar.length ; k++){
+			ar[k]=r.nextInt(101);
+			   if(ar[k]%2==0){
+				   count++;
+				   }
+		
+		 		System.out.print(ar[k]+" ");
+
+		}
+			System.out.println("]");
+			System.out.println("Even count is : "+count);
+
+
+		
+	}
+}
+
+
+i) import java.util.*;
+	class Example{
+	public static void main (String args[]){
+		Scanner input=new Scanner (System.in);
+		Random r=new Random();		
+		int [] ar=new int [12];
+		//System.out.print(Arrays.toString(ar));
+			
+			int count=0;
+			 System.out.print("[");
+		for (int k = 0; k < ar.length ; k++){
+			ar[k]=r.nextInt(101);
+			   if(ar[k]%2!=0){
+				   count++;
+				   }
+		
+		 		System.out.print(ar[k]+" ");
+
+		}
+			System.out.println("]");
+			System.out.println("Odd count is : "+count);
+
+
+		
+	}
+  }
+
+
+j) import java.util.*;
+   class Example{
+	public static void main (String args[]){
+		Scanner input=new Scanner (System.in);
+		Random r=new Random();		
+		int [] ar=new int [12];
+		//System.out.print(Arrays.toString(ar));
+			
+			
+			 System.out.print("[");
+		for (int k = 0; k < ar.length ; k++){
+			ar[k]=r.nextInt(101);
+			   if(ar[k]%2==0){
+				System.out.print(ar[k]+" ");
+				   }
+				}
+			System.out.print("]");
+		}
+}
+
+
+K) import java.util.*;
+	class Example{
+	public static void main (String args[]){
+		Scanner input=new Scanner (System.in);
+		Random r=new Random();		
+		int [] ar=new int [12];
+		//System.out.print(Arrays.toString(ar));
+			
+			
+			 System.out.print("[");
+		for (int k = 0; k < ar.length ; k++){
+			ar[k]=r.nextInt(101);
+			   if(ar[k]%2!=0){
+				   System.out.print(ar[k]+" ");
+				   }
+				}
+			System.out.println("]");
+		}
+  }
+
+
+
+07)
+ 
+a) import java.util.*;
+		class Example{
+		public static void main (String args[]){
+		int[] ar={1, 2, 3, 4, 5};
+		int[] br=new int[]{10, 20, 30, 40, 50};
+		
+		System.out.print("[");
+		for(int c : ar){
+			System.out.print(c+" ");
+			}
+			System.out.print("]");
+		}
+      }
+ 
+
+
+b) import java.util.*;
+		class Example{
+		public static void main (String args[]){
+		int[] ar={1, 2, 3, 4, 5};
+		int[] br=new int[]{10, 20, 30, 40, 50};
+		
+		System.out.print("[");
+		for(int c : ar){
+			System.out.print(c+1+" ");
+			}
+			System.out.print("]");
+		}
+      }
+
+
+c) import java.util.*;
+	class Example{
+	public static void main (String args[]){
+		int[] ar={1, 2, 3, 4, 5};
+		int[] br=new int[]{10, 20, 30, 40, 50};
+		
+		System.out.print(Arrays.toString(ar));
+		
+		}
+    }
+
+
+d) import java.util.*;
+	class Example{
+	public static void main (String args[]){
+		int[] ar={1, 2, 3, 4, 5};
+		int[] br=new int[]{10, 20, 30, 40, 50};
+		
+		System.out.println(Arrays.toString(ar));
+		if (ar.length==br.length){
+			System.out.println("Same size");
+		}else{
+			System.out.print("Same not size");
+
+			}
+		}
+   }
+
+
+e) import java.util.*;
+	class Example{
+	public static void main (String args[]){
+		int[] ar={1, 2, 3, 4, 5};
+		int[] br=new int[]{10, 20, 30, 40, 50};
+		
+		System.out.println(Arrays.toString(ar));
+				
+			for (int i = 0; i < br.length; i++){
+				ar[i]+=1;
+				if (ar.length==br.length){
+				  System.out.print(ar[i]+br[i]+" ");
+	
+			}
+		}			
+	}
+}
+
+f) import java.util.*;
+	class Example{
+	public static void main (String args[]){
+		int[] ar={1, 2, 3, 4, 5};
+		int[] br=new int[]{10, 20, 30, 40, 50};
+		
+		System.out.println(Arrays.toString(ar));
+		if (ar.length==br.length){
+			for (int i = 0; i < ar.length; i++){
+				System.out.print(br[i]+" ");
+			}
+			
+		}
+			
+		}
+   }
+
+
+08) import java.util.*;
+class Example{
+	public static void main(String args[]){
+	Scanner input=new Scanner(System.in);
+	System.out.print("Input no of students : ");
+	final int N=input.nextInt();
+	//1. Create an array to store student marks
+	int [] marks=new int[N];
+	//2. Input marks from the keyboard
+			
+	for (int i = 0; i < marks.length; i++){
+		System.out.print("Input marks  : ");
+		marks[i]=input.nextInt();
+	}
+	
+	
+//3. find total
+	int total=0;
+	for (int a:marks){
+		total+=a;
+	}
+	//System.out.println(total);
+	
+	
+//4. find max;
+	int max = 0;
+	for (int i = 0; i < marks.length; i++){
+		if(marks[i]>max){
+			max=marks[i];
+		}
+	}
+	//5. find min
+		int min=100;
+		for (int i = 0; i < marks.length; i++){
+			if(marks[i]<min){
+				min=marks[i];
+			}
+		}
+		
+		
+	//6. print marks [32, 45, 54, 76, ...]
+	System.out.print("[");
+	for (int i = 0; i < marks.length; i++){
+		     System.out.print(marks[i]+" ");
+	}
+		System.out.println("]");
+
+	
+
+	System.out.println("Total : "+total);
+	System.out.println("Maximum : "+max);
+	System.out.println("Minimum : "+min);
+	}
+	
+}
+
+
+
+09) import java.util.*;
+	class Example{
+	public static int[] createAnArray(int N){
+		int[] marks=new int[N];
+		return marks;
+	}
+	public static int[] readMarks(int[] marks){
+		for (int i = 0; i < marks.length; i++){
+			Random r=new Random();
+			marks[i]=r.nextInt(101);
+		}
+		return marks;
+	}
+	public static int total(int[] marks){
+		int total=0;
+		for (int i = 0; i < marks.length; i++){
+			total+=marks[i];
+		}
+		System.out.println("Total : "+total);
+		return total;
+	}
+	public static int max(int[] marks){
+		int max=0;
+		L1:for (int i = 0; i <marks.length; i++){
+			if (marks[i]>max){
+				max=marks[i];
+			}
+			continue L1;
+		}
+		System.out.println("Max : "+max);
+		return max;
+	}
+	public static int min(int[] marks){
+		int min=100;
+		for (int i = 0; i <marks.length; i++){
+			
+			if(marks[i]<min){
+				min=marks[i];
+			}
+		}
+		System.out.println("Min : "+min);
+		return min;
+	}
+	public static void printMarks(int[] marks){
+		System.out.println(Arrays.toString(marks));
+	}
+	
+	public static void main(String args[]){
+		Scanner input=new Scanner(System.in);
+		
+		//Create an array to store student marks
+		System.out.print("Input no of students : ");
+		int N=input.nextInt();
+		int[] marks=createAnArray(N);
+		
+		//Input marks from the keyboard
+		readMarks(marks);
+		
+		//Find total
+		int total=total(marks);
+		
+		//Find max;
+		int max=max(marks);
+		
+		//Find min
+		int min=min(marks);
+		
+		//Print marks [32, 45, 54, 76, ...]
+		printMarks(marks);
+	}
+}
+
+
+10)  A B D 
+
+11)   A D E G
+
+12)   A B C E F
+
+13)   int =====> 0
+	double ==> 0.0
+	char ====> ASCII 0
+	boolean => false
+	float ===> 0.0
+
+14)   	A-10
+	B-Error
+	C-9
+	D-Error
+	E-Error
+
+15)  A,B,D,E,F,G,H,J
+
+16)  A,B,C,G
+
+17) 100 200
+	100 201
+
+18)  import java.util.*;
+	class Example{
+	public static char[] merge(char[] vowels1,char[] vowels2){
+		char[] vowelsAll=new char[10];
+		for (int i = 0; i <vowels1.length; i++){
+			
+		}
+		return vowelsAll;
+	}
+	public static void main(String args[]){
+		char[] vowels1={'a','e','i','o','u'};
+		char[] vowels2={'A','E','I','O','U'};
+		System.out.println(Arrays.toString(vowels1));
+			//[a, e, i, o, u]	
+		System.out.println(Arrays.toString(vowels2));
+			//[A, E, I, O, U]
+		char[] vowelsAll=merge(vowels1,vowels2);
+		System.out.println(Arrays.toString(vowelsAll));
+			//[a, e, i, o, u, A, E, I, O, U]
+	}
+}	
+
+
+19)  [100, 200, 300]
+	[100, 200, 300]
+	[101, 201, 301]
+
+
+20) A,B,C,D,G,H,K
+
+
+21)  A,B,E,G
+
+22)  ----
+
+23)  -----
+
+24)  -----
+
+
+  
+
+
+
+ 
+
+
+
+
+
+
+

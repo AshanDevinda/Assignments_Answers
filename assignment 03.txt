@@ -1,0 +1,395 @@
+01. Byte -> 8 bits -> (-2^7 to 2^7-1)
+    short -> 16 bits -> (-2^15 to 2^15-1)
+    int -> 32 bits -> (-2^31 to 2^31-1)
+    long -> 64 bits -> (-2^63 to 2^63-1)
+    float -> 32 bits -> (-2^31 to 2^31-1) 
+    double -> 64 bits -> (-2^63 to 2^63-1)
+    char -> 16 bits -> (0 to 2^16-1)
+
+02. A - CORRECT
+    B - INCORRECT
+    C - CORRECT
+    D - CORRECT
+    E - CORRECT
+    F - INCORRECT
+    G - CORRECT
+    H - CORRECT
+
+03. A - CORRECT 
+    B - CORRECT
+    C - INCORRECT
+    D - CORRECT
+    E - INCORRECT
+    F - CORRECT
+    G - INCORRECT
+    H - INCORRECT
+    I - INCORRECT
+
+04. A - Binary -> 00001010 
+        Octal -> 12
+	Hexadecimal -> A
+
+    B - Binary -> 00010000
+        Octal -> 20
+	Hexadecimal -> 10
+
+    C - Binary -> 10000000                    
+        Octal -> 200
+	Hexadecimal -> 80 
+
+    D - Binary -> 11111111
+	Octal -> 377
+	Hexadecimal -> FF
+
+    E - Binary -> 0111111111111111
+	Octal -> 77777
+	Hexadecimal -> 7FFF
+    
+    F - Binary -> 00000001
+	Octal -> 1
+	Hexadecimal -> 1
+
+    G - Binary -> 00000000
+	Octal -> 0
+	Hexadecimal -> 0
+
+    H - Binary -> 00011010
+	Octal -> 32
+	Hexadecimal -> 1A
+
+    I - Binary -> 00011111
+	Octal -> 37
+	Hexadecimal -> 1F
+
+05. A - 11110110
+    B - 10011100
+    C - 11000000
+    D - 11111111
+    E - 11111110
+    F - 10000000
+    G - 00000000
+    H - 10000001
+    I - 11100000
+
+06. a) conversion යනු පොඩි ඩෙිට ටයිප් ඵකක්  ලොකු ඩෙිට ටයිප් ඵකකට ඇතුලත් කිරීම මෙී නමින් හැදින්‌වෙි
+       
+       Ex : 
+	   	byte b=10;
+		short s;
+		s=b;
+
+
+      casting 
+
+       Ex : 
+		short s=100;
+		byte b;
+		b=s;(Error)
+		b=(byte) s;
+
+
+    b) Narrow casting යනු ලොකු ඩෙිට ටයිප් ඵකක්  පොඩි ඩෙිට ටයිප් ඵකකට casting කිරීම නමි වෙී
+
+       Ex : 
+		b= (byte)s;
+		
+	Narrow conversion යනු 
+       
+       Ex : 
+		int Age= 12;
+		Age=Age+10(Age+=10);
+	
+	මෙහිදී අප විසින් casting කිරීමක් සිදු නොකරයි ඵය operating system ඵක මගින් assign කර ගනී
+   
+    c) Wider Casting යනු  
+       
+       Ex : 
+		int Total=756;
+		int n=10;
+		Average= Total/n;
+		S.o.p(Average);//75.0
+
+		Average = (double)total/n;
+		S.o.p(Average)=75.6;
+
+       wider conversion යනු  
+
+       Ex : 
+		byte b=10;
+		short s;
+		s=b;
+
+
+07. A - legal
+    B - illegal
+    C - illegal
+    D - illegal
+    E - legal
+
+
+08. Line 1 - illegal ( + int නිසා )
+    Line 2 - illegal ( + int නිසා )
+    Line 3 - illegal ( * int නිසා )
+    Line 4 - illegal ( + int නිසා )
+    Line 5 - illegal ( + int නිසා )
+    Line 6 - illegal ( S පිලිබද තොරතුරක් දී නොමැති  නිසා )
+    Line 7 - legal
+    Line 8 - legal
+    Line 9 - legal
+    Line 10 - legal
+    Line 11 - legal
+    Line 12 - legal
+    Line 13 - legal
+
+
+09. A - legal
+    B - illegal
+    C - legal
+    D - illegal
+    E - legal
+
+10. E.None of above
+
+11. B. 4.0,4.5,4.5,5.0
+
+12. A , C , D
+
+13. A , B , C , D
+
+14. 
+
+15. A , C , G 
+
+16. A -> 3
+    B -> -3
+    C -> 3
+    D -> -3
+    E ->  3
+    F -> -3
+    G -> 3
+
+17. A , B , D
+
+18. A , C , D
+
+19. A , B , C , D
+
+20. A = 17
+    B = -10
+    C = -17
+    D = -3
+    E = 7
+    F = -3
+
+21. -100
+    100
+    -100
+    -200
+    400
+    0
+
+22. 100101
+    104
+    104
+
+23. 101 100
+    102 101
+    103 102
+
+24. 101 101
+    102 102
+    103 103
+
+25. 100
+    100
+    100
+    101
+    102
+    103
+
+26. A - 3
+    B - 0
+    C - 10
+    D - 0.0
+    E - 1.0999999999999996
+
+27. a - 30
+    b - -10
+    c - 31
+    d - 30
+    e - 31
+    f - 30
+    g - 32
+    h - 31
+
+28. 12 - 4 * 2 : 4
+    (12 - 4) * 2 : 16
+    12 - (4 * 2) : 4
+
+29. a - 6
+    b - 4
+    c - 1
+    d - 1
+    e - 7
+
+30. a - 106
+    b - 12
+    c - 11
+    d - 400
+
+31. a - 21
+    b - 20
+    c - 22
+    d - 21
+    e - 23
+    f - 21
+    g - 22
+    h - 22
+    i - 22
+    j - 22
+
+32. 303
+    306
+
+    404 102
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	Hexadecimal -> 

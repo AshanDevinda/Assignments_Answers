@@ -1,0 +1,324 @@
+01.   import java.util.*;
+      class Example{
+	public static void main(String args[]){
+		Scanner input=new Scanner(System.in);
+		
+		System.out.print("Input number 1 : ");
+		int num1=input.nextInt();
+		System.out.print("Input number 2 : ");
+		int num2=input.nextInt();
+		
+		int total;
+		total=num1 + num2;
+		
+		if (num1 > num2){
+			System.out.print("total :" +(num1 + num2) );
+
+			}else{
+				System.out.print(num1+ " " +num2 );
+			}	
+		}
+      }
+
+
+
+02.//////////////////////////////////////////////////////////////////////////////
+   /////////////////////////////////////////////////////////////////////////////
+
+
+03.    import java.util.*;
+       class Example{
+	        public static void main(String args[]){
+		Scanner input=new Scanner(System.in);
+		
+		  System.out.print("Input chemestry marks : ");
+		  int cm=input.nextInt();
+		  System.out.print("Input physics marks : ");
+		  int pm=input.nextInt();
+		  System.out.print("Input combine maths marks : ");
+		  int cmm=input.nextInt();
+		  int Total,Average;
+		  Total=cm+pm+cmm;
+		  Average=Total/3;
+		  System.out.println("Total : "+(cm+pm+cmm));
+		  System.out.println("Average : "+(Total/3));
+		
+		
+		  if (Average > 75){
+			System.out.print("pass" );
+
+			}else{
+				System.out.print("fail" );
+			}	
+		}
+        }
+
+
+04.  import java.util.*;
+     class Example{
+	public static void main(String args[]){
+		Scanner input=new Scanner(System.in);
+		
+		System.out.print("Enter unit prise : ");
+		Double price=input.nextDouble();
+		System.out.print("Amount : ");
+		Double amount=input.nextDouble();
+		
+		Double Total;
+		Total=price * amount;
+		System.out.println("Total : "+(price * amount));
+		
+		
+		if (Total >= 1500){
+			System.out.print("Win" );
+
+			}else{
+				System.out.print("Try again" );
+			}	
+	}
+    }
+
+
+05.
+	import java.util.*;
+	class Example{
+		public static void main(String args[]){
+		Scanner input=new Scanner(System.in);
+		
+		System.out.print("Enter price : ");
+		Double price=input.nextDouble();
+		System.out.print("Amount : ");
+		Double amount=input.nextDouble();
+		
+		Double Total;
+		Total=price * amount;
+		Double discount;
+		discount=Total*5/100;
+		if(Total>=500){
+			System.out.println("Discount is : " +discount);
+			System.out.println("New total is : "+(Total-discount));
+			}else{
+				System.out.print("Total is : "+Total);
+			}
+
+			
+
+		}
+		
+		}
+
+06. import java.util.*;
+	class Example{
+	public static void main(String args[]){
+		Scanner input=new Scanner(System.in);
+		
+		System.out.print("Enter year : ");
+		int year=input.nextInt();
+		
+		if(year%4==0){
+			System.out.println("leap year");
+			}else{
+				System.out.print("not");
+			}
+
+			
+
+				}
+		
+		}
+
+
+07.
+	import java.util.*;
+	class Example{
+		public static void main(String args[]){
+			Scanner input=new Scanner(System.in);
+		
+			System.out.print("Radius : ");
+			int r=input.nextInt();
+			int p;
+			p=22/7*r*r;
+			System.out.print("Area of circle :"+p);
+		}
+		
+	}
+
+
+08. 	import java.util.*;
+	class Example{
+		public static void main(String args[]){
+			Scanner input=new Scanner(System.in);
+			System.out.print("Input number 1 : ");
+			int n1=input.nextInt();
+			System.out.print("Input number 2 : ");
+			int n2=input.nextInt();
+			System.out.print("Input number 3 : ");
+			int n3=input.nextInt();
+			int max;
+			max=n1;
+			if(n2>max){
+			max=n3;
+			}
+			if(n3>max){
+
+			}
+			System.out.print("Max : "+max);
+		}
+		
+	}
+
+
+
+
+
+09.	import java.util.*;
+   	public class Example {
+   	public static void main(String[] args){
+		Scanner input = new Scanner(System.in);
+      		System.out.print("Enter Number 1 : ");
+      		int num1=input.nextInt();
+     		 System.out.print("Enter Number 2 : ");
+      		int num2=input.nextInt();
+     		 System.out.print("Enter Number 3 : ");
+     		 int num3=input.nextInt();
+     		 int max=num1;
+      		if(max<num2){
+		  max=num2;
+	 	 }
+	 	 if(max<num3){
+		  max=num3;
+	 	 }
+     	 System.out.print("Maximum number is : "+max);
+    	}
+  	}
+
+10.	import java.util.*;
+   	public class Example {
+   	public static void main(String[] args){
+		Scanner input = new Scanner(System.in);
+      		System.out.print("Enter Number : ");
+     		 int x=input.nextInt();
+     		 if(x%2==0){
+			System.out.print("Even Number");
+	 		 }else{
+			System.out.print("Odd Number");
+		  }
+	}
+	}
+
+11.	C,E,F
+
+12.	A,B,C,D,E,F
+
+13.	A=9, 
+	B=false, 
+	C=error, 
+	D=false, 
+	E=true
+
+14.	A=true, 
+	B=true, 
+	C=true, 
+	D=false, 
+	E=true, 
+	F=false, 
+	G=true
+
+15. 	++x==x : 100
+	x==x++ : 100
+	++x==x++ : 101
+
+16. 	++x==x : 101
+	x==x++ : 102
+	++x==x++ : 109
+
+
+17.	x++==y : 100 : 99
+	x==++y : 101 : 101
+	++x==++y : 102 : 102
+	x++==y++ : 103 : 103
+
+18. 	C, D, G, H
+
+19. 	B
+
+20. 	Line 4 and 5 error
+
+21. 	true
+	false
+	true
+	false
+	true
+	false
+	false
+
+22. 	Line 3 error
+
+23. 	A-1 2 3
+	B-2 3
+	C-3
+	D-4 1 2 3
+	E-4 1 2 3
+	F-4 1 2 3
+
+24. 	A, B, C, D, E, F, H
+
+25.	 A=1, B=2 3 1 C=3 1 D=4 E=4 F=4
+
+26.	 A=0 B=0 C=error D=error E=0 G=0 H=0
+
+27.	 D
+
+28.	 D
+
+29.	 B D H
+
+30. 	B C D E
+
+31. 	A=Pass, Thanking you..
+    	B=Pass, Thanking you..
+    	C=Fail, Thanking you..
+    	D=Pass, Thanking you..
+    	E=Pass, Thanking you..
+    	F=Fail, Thanking you..
+    	G=Fail, Thanking you..
+
+32. 	Line 1 - 37
+		Line 2 - Error
+		Line 3 - Error
+		Line 4 - -13.349
+		Line 5 - 5.625
+		Line 6 - Error
+		Line 7 - 15.0
+		Line 8 - 6
+		Line 9 - -10.0000
+		Line 10 - 10
+		Line 11 - -9
+		Line 12 - 4
+		Line 13 - 4
+		Line 14 - 4
+		Line 15 - 2
+
+33. 	Line 1 - 2 3 4 5 10
+		Line 3 - 14 12 9 5 24
+		Line 5 - 5 5 5 5 5
+
+
+34. 	Line 1 - false
+		Line 2 - true
+		Line 3 - Error
+		Line 4 - true
+		Line 5 - false
+		Line 6 - true
+		Line 7 - true
+		Line 8 - false
+
+
+35. 	Line 1 - OK
+		Line 2 - OK
+		Line 3 - false
+		Line 4 - false
+		Line 5 - OK
+		Line 6 - true
+		Line 7 - false
+
